@@ -1,0 +1,20 @@
+/* One of our arrows. The order (set where it's drawn) and its place in the row put it
+   next to the game's own buttons, before or after every other mod's button. */
+.slot {
+    /* Drawn on top, so the other buttons slide in underneath it. */
+    position: relative;
+    z-index: 10;
+    display: flex;
+}
+
+/* Nothing to tidy in this area (no mod buttons there): no arrow. */
+.empty {
+    display: none;
+}
+
+.chevron {
+    display: block;
+    width: 28rem;
+    height: 28rem;
+    transition: transform 500ms ease-in-out; /* the time is set to match the slide in collapse-toggle.tsx */
+}

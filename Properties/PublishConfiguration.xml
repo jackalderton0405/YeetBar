@@ -1,0 +1,40 @@
+<Publish>
+	<!--No ModId yet: this is a new mod. After the first publish (PublishNewMod), put the new page number here,
+	    then use PublishNewVersion for updates. Never use Pinboard's number (146902).-->
+	<ModId Value="" />
+	<DisplayName Value="Yeet Bar" />
+	<ShortDescription Value="Nothing to see here. Yeet your top-left mod buttons out of the way with one click, and bring them back when you need them." />
+	<LongDescription>
+# Yeet Bar
+*Nothing to see here.*
+
+Too many mod buttons in the top-left corner? Click the arrow and they slide away. Click it again and they're back.
+
+- Want the top-right corner tidied too? Switch it on in Options and it gets its own arrow.
+- Alt + C does the same as the arrows. You can change the key in Options.
+- Slide speed is up to you: 0.25, 0.5 or 1 second, or no animation at all.
+
+It only moves buttons on screen. Your saves are never touched, and unsubscribing puts everything back.
+
+I made this for myself as a little QoL mod, but any feedback is appreciated. Made with Claude by Anthropic.
+	</LongDescription>
+	<!--Store images must stay under about 1.2 MB. Thumbnail.png is about 80 KB; Thumbnail.svg is its editable source.-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Store-page screenshots, shown in this order. Each must stay under about 1.2 MB.-->
+	<Screenshot Value="Properties/Screenshots/1-top-left-open.png" />
+	<Screenshot Value="Properties/Screenshots/2-top-left-collapsed.png" />
+	<Screenshot Value="Properties/Screenshots/3-top-right.png" />
+	<Tag Value="" />
+	<ModVersion Value="1.0.0" />
+	<GameVersion Value="1.6.*" />
+	<RequiredDLC Value="" />
+	<ChangeLog>
+# 1.0.0
+
+First release.
+	</ChangeLog>
+	<!--Supported values Public, Private, Unlisted. Start Unlisted while testing.-->
+	<AccessLevel Value="Unlisted" />
+	<!--External link, can be set multiple times. Supported types include "discord", "github", "youtube", "kofi".-->
+	<ExternalLink Type="github" Url="https://github.com/jackalderton0405/YeetBar" />
+</Publish>

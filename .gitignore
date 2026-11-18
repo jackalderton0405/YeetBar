@@ -1,0 +1,15 @@
+# Build output (Visual Studio makes these again on every build)
+bin/
+obj/
+.vs/
+Library/
+*.user
+
+# Screen-side tools, reinstalled with "npm install"
+UI/node_modules/
+
+# Private notes and local backups, never shared
+DEV-NOTES.md
+*.tgz
+*.zip
+.claude/
