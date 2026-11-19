@@ -23,7 +23,7 @@ namespace TopLeftCollapse.Localization
         {
             return new Dictionary<string, string>
             {
-                { m_Setting.GetSettingsLocaleID(), "Yeet Bar" },
+                { m_Setting.GetSettingsLocaleID(), "Stash Bar" },
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.TidyTopLeft)), "Tidy top-left buttons" },
                 { m_Setting.GetOptionDescLocaleID(nameof(Setting.TidyTopLeft)),
                     "Adds an arrow next to the game's \"i\" button that slides the mod buttons in the top-left corner away." },
@@ -45,7 +45,7 @@ namespace TopLeftCollapse.Localization
                 { m_Setting.GetOptionGroupLocaleID(Setting.kKeybindGroup), "Keyboard shortcut" },
 
                 // Keyboard shortcut
-                { m_Setting.GetBindingMapLocaleID(), "Yeet Bar" },
+                { m_Setting.GetBindingMapLocaleID(), "Stash Bar" },
                 { m_Setting.GetBindingKeyLocaleID(Setting.kToggleActionName), "Collapse or expand the mod buttons" },
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.ToggleKey)), "Collapse / expand" },
                 { m_Setting.GetOptionDescLocaleID(nameof(Setting.ToggleKey)),

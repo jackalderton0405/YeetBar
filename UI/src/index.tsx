@@ -4,7 +4,7 @@ import { arrowFor } from "mods/collapse/collapse-toggle";
 
 const register: ModRegistrar = (moduleRegistry) => {
     // One arrow per corner (top-left and top-right). Each shows only when switched on
-    // in Options > Yeet Bar. Nothing else on screen is touched.
+    // in Options > Stash Bar. Nothing else on screen is touched.
     for (const area of AREAS) moduleRegistry.append(area.slot, arrowFor(area));
 };
 

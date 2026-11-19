@@ -1,7 +1,7 @@
 import { AppendHookTargets } from "cs2/modding";
 import { Axis, Placement } from "./row-slide";
 
-// The corners Yeet Bar can tidy. Each is a row the game makes for mod buttons.
+// The corners Stash Bar can tidy. Each is a row the game makes for mod buttons.
 // Checked in the game's own UI code (Cities2_Data/Content/Game/UI/index.js), 2026-11-18.
 //
 // "gameClasses" are the starts of the style names of the game's own buttons that share

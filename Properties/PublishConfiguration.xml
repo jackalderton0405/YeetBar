@@ -1,11 +1,11 @@
 <Publish>
-	<!--No ModId yet: this is a new mod. After the first publish (PublishNewMod), put the new page number here,
-	    then use PublishNewVersion for updates. Never use Pinboard's number (146902).-->
-	<ModId Value="" />
-	<DisplayName Value="Yeet Bar" />
-	<ShortDescription Value="Nothing to see here. Yeet your top-left mod buttons out of the way with one click, and bring them back when you need them." />
+	<!--This mod's own Paradox Mods ID (168095), from the first publish on 2026-11-18 (published as Yeet Bar, renamed Stash Bar in 1.0.1). Use PublishNewVersion for updates.
+	    Never use Pinboard's number (146902).-->
+	<ModId Value="168095" />
+	<DisplayName Value="Stash Bar" />
+	<ShortDescription Value="Nothing to see here. Stash your top-left mod buttons out of the way with one click, and bring them back when you need them." />
 	<LongDescription>
-# Yeet Bar
+# Stash Bar
 *Nothing to see here.*
 
 Too many mod buttons in the top-left corner? Click the arrow and they slide away. Click it again and they're back.
@@ -25,10 +25,14 @@ I made this for myself as a little QoL mod, but any feedback is appreciated. Mad
 	<Screenshot Value="Properties/Screenshots/2-top-left-collapsed.png" />
 	<Screenshot Value="Properties/Screenshots/3-top-right.png" />
 	<Tag Value="" />
-	<ModVersion Value="1.0.0" />
+	<ModVersion Value="1.0.1" />
 	<GameVersion Value="1.6.*" />
 	<RequiredDLC Value="" />
 	<ChangeLog>
+# 1.0.1
+
+New name: Yeet Bar is now Stash Bar. Nothing else changed, and your settings are kept.
+
 # 1.0.0
 
 First release.
@@ -36,5 +40,5 @@ First release.
 	<!--Supported values Public, Private, Unlisted. Start Unlisted while testing.-->
 	<AccessLevel Value="Unlisted" />
 	<!--External link, can be set multiple times. Supported types include "discord", "github", "youtube", "kofi".-->
-	<ExternalLink Type="github" Url="https://github.com/jackalderton0405/YeetBar" />
+	<ExternalLink Type="github" Url="https://github.com/jackalderton0405/StashBar" />
 </Publish>

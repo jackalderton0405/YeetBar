@@ -12,15 +12,15 @@ export const collapsed$ = {
     topRight: bindValue<boolean>(GROUP, "collapsedTopRight", false),
 };
 
-// Options > Yeet Bar: which corners get an arrow at all.
+// Options > Stash Bar: which corners get an arrow at all.
 export const enabled$ = {
     topLeft: bindValue<boolean>(GROUP, "tidyTopLeft", true),
     topRight: bindValue<boolean>(GROUP, "tidyTopRight", false),
 };
 
-// Options > Yeet Bar > Slide animation.
+// Options > Stash Bar > Slide animation.
 export const animate$ = bindValue<boolean>(GROUP, "animate", true);
-// Options > Yeet Bar > Slide speed, in milliseconds (250, 500 or 1000).
+// Options > Stash Bar > Slide speed, in milliseconds (250, 500 or 1000).
 export const slideMs$ = bindValue<number>(GROUP, "slideMs", 500);
 
 export const setCollapsed = (area: AreaId, value: boolean) => trigger(GROUP, "setAreaCollapsed", area, value);

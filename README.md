@@ -1,6 +1,6 @@
-# Yeet Bar
+# Stash Bar
 
-*Nothing to see here.* A Cities: Skylines II mod (internal ID `TopLeftCollapse`). It puts one
+*Nothing to see here.* A Cities: Skylines II mod (internal ID `TopLeftCollapse`, first published as Yeet Bar). It puts one
 arrow at the start of the top-left row of mod buttons, right after the game's own "i" button.
 
 - Click the arrow and the other mod buttons slide away behind it. Click again and they come back.
@@ -53,6 +53,7 @@ arrow at the start of the top-left row of mod buttons, right after the game's ow
 
 ## Publishing
 
-New mod, so no ModId yet. The logo is `Properties/Thumbnail.png` (keep store images under
-about 1.2 MB; `Thumbnail.svg` is its editable source). Publish once with **PublishNewMod**, put the new page number into `Properties/PublishConfiguration.xml`,
-then use **PublishNewVersion** for updates. It starts as Unlisted.
+Paradox Mods ID: **168095** (already in `Properties/PublishConfiguration.xml`). For updates, raise
+`ModVersion` there, add a ChangeLog entry, and publish with **PublishNewVersion**. Never use PublishNewMod again,
+it would make a second store page. The logo is `Properties/Thumbnail.png` (keep store images under
+about 1.2 MB; `Thumbnail.svg` is its editable source).

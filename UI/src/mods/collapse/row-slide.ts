@@ -11,7 +11,7 @@
 // Everything here only changes how buttons look on screen. Nothing is saved, and
 // every change is undone when the row opens again, so other mods are left as they were.
 
-// How long a slide takes, from Options > Yeet Bar > Slide speed (0.25, 0.5 or 1 second).
+// How long a slide takes, from Options > Stash Bar > Slide speed (0.25, 0.5 or 1 second).
 // Shared by every area. The arrows' swivel uses the same time (see collapse-toggle.tsx).
 let slideMs = 500;
 let transition = transitionFor(slideMs);
